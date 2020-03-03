@@ -1,0 +1,117 @@
+.post-details{
+    margin: 0;
+    padding: 0;
+    width:auto;
+    height: auto;
+    background-image: linear-gradient(to right bottom, rgba(196, 189, 99, 0.8), rgba(180, 166, 40, 0.8)), url(../img/hero2.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+.post_box-details{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: space-between;
+color: azure;
+line-height: 2rem;
+}
+.title-details{
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    -webkit-animation: moveInRight 1s ease-in-out;
+    animation: moveInRight 1s ease-in-out;
+    font-family: cursive;
+    text-shadow: -2px 2px 0 rgb(71, 65, 65), 
+     2px 2px 0 rgb(133, 115, 115), 
+   2px -2px 0 #000,
+    -2px -2px 0 #000; 
+}
+.img_food-detalis{
+align-self: center;
+height: 50rem;
+width: 70rem;
+border-radius: 10%;
+box-shadow: 10px 5px 10px 5px #4444;
+}
+.span-box-details{
+    font-size: 4.5rem;
+    font-family: cursive;
+    margin-top: 2.5rem;
+    text-shadow: -1px 1px 0 #000, 
+    1px 1px 0 #000, 
+   1px -1px 0 #000,
+    -1px -1px 0 #000; 
+
+}
+.span-box-details:hover{
+    transform:scale(1.2);
+    transition: .5s ease-in-out;
+}
+.span-box-details:hover > .how-details{
+    display: inline-block;
+    transform:scale(1.2);
+    
+
+}
+
+.text_area-details,.how-details,.amount-details{
+    padding: 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: -1px 1px 0 #000, 
+    1px 1px 0 #000, 
+   1px -1px 0 #000,
+    -1px -1px 0 #000; 
+}
+.text_area-details{
+    width: 60rem;
+    position: relative;
+}
+.write_time-detalis{
+    font-size: 1.3rem;
+    letter-spacing: 0.8rem;
+    font-weight: 200;
+}
+.btn-details{
+padding: .5rem 3.5rem ;
+font-size: 1.8rem;
+color: aliceblue;    
+}
+.margin-top{
+    padding: 2rem;
+}
+.edit{
+    display: inline-block;
+   
+    font-size: 1.8rem;
+}
+.container-delete{
+    height: 100rem;
+    width: 40%;
+    margin: -20rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.delete-title{
+margin: 5 auto;
+font-size: 4rem;
+font-weight: bolder;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.btn-block{
+    margin: 2rem;
+    padding: 2rem;
+  font-size: 1.8rem;
+  width: 18rem;
+  display: inline-block;
+}

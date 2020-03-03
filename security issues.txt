@@ -1,0 +1,30 @@
+
+- Security issues -
+
+1. sql injection
+mysqli_real_escape_string($link,-input-);
+
+2. xss attack ( Cross-Site Scripting Attacks )
+filter_input(INPUT_POST, 'input name',FILTER_SANITIZE_STRING)
+
+htmlspecialchars(info from DB)
+htmlentities(info from DB)
+
+
+3. csrf ( Cross-site request forgery )
+token
+
+4. password hashing (md5,sha1,salt,password_hash,password_verify)
+
+5. (http) data fishing
+https
+
+6. session hijacking
+$_SERVER['REMOTE_ADDR']
+$_SERVER['USER_AGENT']
+session_name('myname');
+session_regenerate_id();
+
+7. robots attacking forms
+
+8. secured file upload ( is_uploaded_file ($_FILES['file']['tmp_name']) )

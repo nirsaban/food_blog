@@ -1,0 +1,173 @@
+.container-add{
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(196, 189, 99, 0.8), rgba(180, 166, 40, 0.8)), url(../img/hero2.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.h3{
+margin-top: 10rem;
+  letter-spacing: 1.7rem;
+  text-transform: uppercase;
+  margin: 0 auto ; 
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgb(245, 243, 243);
+  box-shadow: 2px  2px 2px 0px rgba(70, 70, 68, 0.4);
+  text-shadow: 1px 1px 0 #000, 
+
+
+   0 0 #000, 
+  1px -1px 0 #000,
+  0 0;
+}
+.h3:hover{
+  box-shadow:  0 0 10px 12px rgba(141, 140, 65, 0.2);
+}
+
+
+.form-shit {
+  display: block;
+ margin: 0 auto 10rem;
+ width: 100rem;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 10rem;
+}
+.user-nav-add{
+  display: flex;
+  justify-content: end;
+}
+.span-add{
+  color: #302727;
+    text-transform: uppercase;
+  font-size: 3.1rem;
+  margin: 5rem auto;
+  font-weight: bolder;
+  display: block;
+  display: flex;
+  justify-content:center;
+  
+  
+
+}
+.span-add:hover > .example{
+  display: block;
+  font-size: 1.2rem;
+  color: #acabab;
+  margin:.8rem;
+  align-self: center;
+}
+.example{
+  display: none;
+}
+.example-in{
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  color: #444343;
+}
+.input-file{
+display: flex;
+justify-content: center;
+margin-left: 25.5rem;
+margin-top: 4.5rem;
+}
+.rotate-button {
+  margin-right: 25.5rem;
+  display:inline-block;
+  width:.001px;
+  height:.001px;
+  margin-bottom: 2rem;
+  text-align:center;
+  transform-style:preserve-3d;
+  cursor:pointer;
+  transition:all .3s ease;
+  font-family: 'arial';
+}
+.rotate-button .rotate-button-face, .rotate-button .rotate-button-face-back {
+  position:absolute;
+  display:block;
+  border:1px solid #35495e;
+  transition:all .5s;
+  color:#35495e;
+  text-decoration:none;
+  width:25rem;
+  height: 3.5rem;
+  line-height:30px;
+  border-radius: 4px;
+}
+.rotate-button .rotate-button-face {
+  background-color:#fff;
+  transform:translateZ(15px);
+}
+.rotate-button .rotate-button-face-back {
+  background-color:#35495e;
+  color:#42b883;
+  border:1px solid #42b883;
+  transform:rotateX(-90deg) translateZ(15px);
+}
+.center-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-top: 4.5rem;
+ 
+}
+.rotate-button:hover {
+  transform:rotateX(90deg);
+}
+@media screen and (max-width: 1200px) {
+.form-shit{
+  width: 50rem;
+  padding: .5rem;
+  font-size: 1.5rem;
+  margin-right: 30rem;
+}
+.h3{
+  letter-spacing: 1.3rem;
+  font-size: 3rem;
+
+}
+}
+
+@media screen and (max-width: 750px) {
+  .form-shit{
+    width: 40rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+   
+  }
+  .h3{
+    letter-spacing: 1.2rem;
+    font-size: 2rem;
+  
+  }
+  }
+  @media screen and (max-width: 700px) {
+    .form-shit{
+margin-left: 18rem; 
+border-radius:5%;
+   }
+   .span-add{
+     font-size: 1.7rem;
+
+   }
+   .h3{
+     margin-top: 8rem;
+   }
+
+  }
+  @media screen and (max-width: 630px) {
+    .form-shit{
+      margin:0 auto;
+    }
+    .h3{
+      margin-bottom: 2rem;
+    }
+  }

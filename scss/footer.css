@@ -1,0 +1,23 @@
+.section-about {
+    text-align: center;
+    
+  }
+
+  .heading-secondary {
+    font-size:2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+     
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    letter-spacing: .2rem;
+    color:rgba(196, 189, 99, 0.8);
+   
+  
+  }
+  
+  .heading-secondary:hover {
+    -webkit-transform: skewY(5deg) skewX(4deg) scale(1.1);
+            transform: skewY(5deg) skewX(4deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
